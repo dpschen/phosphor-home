@@ -29,6 +29,10 @@
   /* transition: background-color 100ms ease; */
 }
 
+.grid-item::last-child {
+  margin-right: auto;
+}
+
 .grid-item:hover {
   background-color: rgba(163, 159, 171, 0.1);
 }
